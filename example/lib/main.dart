@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
         title: 'Theme Gallery',
         home: Scaffold(
           appBar: AppBar(
-            title: Text('Theme Gallery'),
+            title: const Text('Theme Gallery'),
           ),
-          body: AppThemeGallery(),
+          body: const AppThemeGallery(),
         ));
   }
 }

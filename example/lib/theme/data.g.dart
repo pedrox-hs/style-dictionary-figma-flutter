@@ -3,7 +3,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 03 May 2022 10:56:28 GMT
+// Generated on Wed, 25 Oct 2023 03:15:02 GMT
 
 part of 'theme.g.dart';
 
