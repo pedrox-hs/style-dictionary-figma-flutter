@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 
 const StyleDictionary = require('style-dictionary');
 const transforms = require('./src/transforms');
@@ -28,6 +28,4 @@ for (const key in formats) {
     });
 }
 
-const StyleDictionaryExtended = StyleDictionary.extend('config.json')
-
-StyleDictionaryExtended.buildAllPlatforms()
+module.exports = StyleDictionary;
